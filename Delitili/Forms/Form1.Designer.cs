@@ -136,10 +136,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.BackColor = SystemColors.ScrollBar;
+            label1.BackColor = Color.FromArgb(220, 220, 234);
             label1.Cursor = Cursors.Hand;
             label1.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            label1.ForeColor = Color.FromArgb(70, 70, 70);
+            label1.ForeColor = Color.FromArgb(40, 40, 40);
             label1.Location = new Point(12, 9);
             label1.Name = "label1";
             label1.Size = new Size(219, 25);
@@ -150,10 +150,10 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.BackColor = SystemColors.ScrollBar;
+            label2.BackColor = Color.FromArgb(220, 220, 234);
             label2.Cursor = Cursors.Hand;
             label2.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            label2.ForeColor = Color.FromArgb(70, 70, 70);
+            label2.ForeColor = Color.FromArgb(40, 40, 40);
             label2.Location = new Point(12, 34);
             label2.Name = "label2";
             label2.Size = new Size(248, 25);
@@ -164,10 +164,10 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.BackColor = SystemColors.ScrollBar;
+            label3.BackColor = Color.FromArgb(220, 220, 234);
             label3.Cursor = Cursors.Hand;
             label3.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            label3.ForeColor = Color.FromArgb(70, 70, 70);
+            label3.ForeColor = Color.FromArgb(40, 40, 40);
             label3.Location = new Point(12, 59);
             label3.Name = "label3";
             label3.Size = new Size(140, 25);
@@ -178,10 +178,10 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.BackColor = SystemColors.ScrollBar;
+            label4.BackColor = Color.FromArgb(220, 220, 234);
             label4.Cursor = Cursors.Hand;
             label4.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            label4.ForeColor = Color.FromArgb(70, 70, 70);
+            label4.ForeColor = Color.FromArgb(40, 40, 40);
             label4.Location = new Point(12, 84);
             label4.Name = "label4";
             label4.Size = new Size(283, 25);
@@ -192,10 +192,10 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.BackColor = SystemColors.ScrollBar;
+            label5.BackColor = Color.FromArgb(220, 220, 234);
             label5.Cursor = Cursors.Hand;
             label5.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            label5.ForeColor = Color.FromArgb(70, 70, 70);
+            label5.ForeColor = Color.FromArgb(40, 40, 40);
             label5.Location = new Point(12, 109);
             label5.Name = "label5";
             label5.Size = new Size(228, 25);
@@ -206,10 +206,10 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.BackColor = SystemColors.ScrollBar;
+            label6.BackColor = Color.FromArgb(220, 220, 234);
             label6.Cursor = Cursors.Hand;
             label6.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            label6.ForeColor = Color.FromArgb(70, 70, 70);
+            label6.ForeColor = Color.FromArgb(40, 40, 40);
             label6.Location = new Point(12, 134);
             label6.Name = "label6";
             label6.Size = new Size(215, 25);
@@ -220,10 +220,10 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.BackColor = SystemColors.ScrollBar;
+            label7.BackColor = Color.FromArgb(220, 220, 234);
             label7.Cursor = Cursors.Hand;
             label7.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            label7.ForeColor = Color.FromArgb(70, 70, 70);
+            label7.ForeColor = Color.FromArgb(40, 40, 40);
             label7.Location = new Point(12, 159);
             label7.Name = "label7";
             label7.Size = new Size(204, 25);
@@ -233,7 +233,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.BackColor = SystemColors.ScrollBar;
+            pictureBox1.BackColor = Color.FromArgb(220, 220, 234);
             pictureBox1.Location = new Point(10, 7);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(295, 363);

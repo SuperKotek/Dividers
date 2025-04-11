@@ -122,7 +122,7 @@ namespace Delitili
         {
             for (int i = 0; i < 7; i++)
             {
-                a[i].ForeColor = i == labl - 1 ? Color.FromArgb(15, 15, 80) : Color.FromArgb(70, 70, 70);
+                a[i].ForeColor = i == labl - 1 ? Color.FromArgb(15, 15, 80) : Color.FromArgb(40, 40, 40);
             }
         }
 
