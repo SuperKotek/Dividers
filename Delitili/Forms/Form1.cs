@@ -122,7 +122,7 @@ namespace Delitili
         {
             for (int i = 0; i < 7; i++)
             {
-                a[i].ForeColor = i == labl - 1 ? Color.FromArgb(15, 15, 80) : Color.FromArgb(40, 40, 40);
+                a[i].ForeColor = i == labl - 1 ? Color.FromArgb(15, 15, 150) : Color.FromArgb(40, 40, 40);
             }
         }
 
@@ -343,6 +343,12 @@ namespace Delitili
                     return;
                 }
 
+                /*if (a < 0 || b < 0)
+                {
+                    textBox14.Text = "Ошибка: Числа должны быть положительными";
+                    return;
+                }*/
+
                 int gcd = NumberHelper.FindGCD(a, b);
                 textBox14.Text = gcd.ToString();
             }
@@ -370,6 +376,12 @@ namespace Delitili
                     textBox17.Text = "Ошибка: Числа не могут быть нулями";
                     return;
                 }
+
+                /*if (a < 0 || b < 0)
+                {
+                    textBox17.Text = "Ошибка: Числа должны быть положительными";
+                    return;
+                }*/
 
                 int lcm = NumberHelper.FindLCM(a, b);
                 textBox17.Text = lcm.ToString();
